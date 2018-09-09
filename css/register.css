@@ -1,0 +1,85 @@
+/*
+* @Author: admin
+* @Date:   2018-06-20 15:58:37
+* @Last Modified by:   admin
+* @Last Modified time: 2018-06-21 09:29:40
+*/
+*{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: url('../images/login_register.jpg') no-repeat;
+ }
+.box{
+	width: 380px;
+	height: 420px;
+	box-sizing: border-box;
+	margin: 60px auto;
+	padding: 25px;
+	background: #faf6f7;
+}
+input{
+	box-sizing: border-box;
+	margin: 15px auto;
+	padding-left: 10px;
+	color: #c6c6c6;
+	font-size: 14px;
+	border: 1px solid #c6c6c6;
+}
+input:nth-of-type(1){
+	width: 77px;
+	height: 40px;
+	margin-right: 6px;
+}
+input:nth-of-type(2){
+	width: 233px;
+	height: 40px;
+	margin-right: 6px;
+}
+input:nth-of-type(3){
+	width: 200px;
+	height: 40px;
+	margin-right: 6px;
+}
+img{
+	float: right;
+	margin-top: 15px;
+}
+input:nth-of-type(4){
+	width: 328px;
+	height: 40px;
+}
+input:nth-of-type(5){
+	width: 328px;
+	height: 40px;
+}
+button{
+	cursor: pointer;
+	background: #3f9f5f;
+	color: white;
+	width: 330px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 17px;
+}
+ol li{
+	float: left;
+	color: #959595;
+	font-size: 14px;
+}
+
+ol li:nth-of-type(2){
+	float: right;
+}
+i{
+	color: #3f9f5f;
+	font-style: normal;
+}

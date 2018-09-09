@@ -1,0 +1,297 @@
+/*
+* @Author: Mo
+* @Date:   2018-06-19 20:12:33
+* @Last Modified by:   Mo
+* @Last Modified time: 2018-06-24 23:09:16
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.header{
+	height: 30px;
+	width: 100%;
+	background: #323232;
+	overflow: hidden;
+    min-width: 1000px;
+}
+.h_left{
+	margin-top: 6px;
+	margin-left: 30px;
+	float: left;
+}
+.h_left a img{
+	width: 58px;
+	height: 18px;
+}
+.h_center{
+	/* background: blue; */
+	width: 600px;
+	height: 30px;
+	float: left;
+}
+.nav{
+	width: 600px;
+	height: 30px;
+	margin-left: 18px;
+}
+.nav>li{
+	float: left;
+	line-height: 30px;
+    font-size: 14px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+.nav li a span{
+	color: silver;
+	font-weight: 900;
+}
+.span_color{
+	color: silver;
+}
+.h_menu{
+	display: none;
+	background: #fff;
+	padding: 10px 0px;
+	position: absolute;
+	top: 30px;
+	z-index: 200;
+    border-radius: 4px;
+    border: 1px solid #999;
+}
+.h_menu ul li{
+	margin: 2px 0;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #636363;
+    /* white-space: nowrap; */
+}
+.h_right{
+	/* background: pink; */
+	width: 100px;
+	height: 30px;
+	float: right;
+	line-height: 30px;
+}
+.h_right a{
+	color: silver;
+	font-weight: 900;
+}
+/* -----------nav------------- */
+
+.air_nav{
+    font-size: 12px;
+    line-height: 14px;
+    margin: 20px 0;
+    text-align: left;
+    margin-left: 185px;
+}
+.air_nav a{
+	font-weight: bold;
+    color: #0073b6;
+    text-decoration: none;
+}
+.air_ticket{
+    margin-bottom: 30px;
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.air_ticket span:nth-of-type(1){
+	float: left;
+    font-size: 36px;
+    line-height: 38px;
+    color: #17784b;
+    margin-right: 25px;
+}
+.air_ticket span:nth-of-type(2){
+	float: left;
+    font-size: 18px;
+    line-height: 20px;
+    color: #636363;
+    padding-top: 16px;
+}
+
+.air_link{
+	border-top: 2px solid #d7d7d7;
+	margin-top: 30px;
+}
+
+.air_wrap{
+	width: 980px;
+    margin: 50px auto;
+    overflow: hidden;
+    padding-bottom: 110px;
+}
+.air_left{
+	width: 680px;
+	height: 287px;
+	position: relative;
+    float: left;
+    padding: 6px 20px 20px;
+    background: #fcfcfc;
+    border: 1px solid #d7d7d7;
+    box-shadow: 0 0 4px 1px #eee;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.air_radio{
+	border-bottom: 1px solid #d7d7d7;
+    height: 18px;
+    padding: 12px 0;
+}
+.air_radio input{
+	margin-right: 5px;
+}
+.air_radio span{
+    margin-right: 24px;
+    font-size: 14px;
+}
+.air_start{
+	float: left;
+	width: 282px;
+}
+.air_p{
+	padding: 20px 0 5px;
+    line-height: 14px;
+    color: #636363;
+    font-weight: 700;
+}
+.air_input{
+	width: 270px;
+    height: 18px;
+    padding: 8px 0 8px 10px;
+    border: 1px solid #c0c0c0;
+    background: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    color: #323232;
+    outline: none;
+}
+.air_start_city{
+    width: 450px;
+    padding: 8px 10px 12px 10px;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: 20px;
+    top: 123px;
+    background-color: #fff;
+    overflow: hidden;
+    display: none;
+}
+.air_city_2{
+    left: 376px;
+    top: 123px;
+}
+.city_ul{
+    width: 100%;
+    display: block;
+    height: 35px;
+    border-bottom: 2px solid #cbcbcb;
+}
+.city_ul li{
+    float: left;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #323232;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 13px;
+    position: relative;
+    cursor: pointer;
+}
+.city_current{
+    color: #10b041;
+    border-bottom: 2px solid #10b041;
+}
+.city_city{
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+    display: none;
+}
+.city_city li{
+    width: 95px;
+    height: 23px;
+    line-height: 23px;
+    color: #666;
+    padding: 0 6px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    float: left;
+}
+.city_city li:hover{
+    background: #10b041;
+    color: #fff;
+}
+.city_city:nth-of-type(2){
+    display: block;
+}
+.air_middle{
+	float: left;
+    width: 36px;
+    height: 24px;
+    margin: 44px 19px 0;
+    background: url(../images/air_icon_cityswap.png) no-repeat;
+    cursor: pointer;
+}
+.air_date{
+	width: 120px;
+    height: 18px;
+    padding: 5px 5px;
+    border: 1px solid #c0c0c0;
+    font-size: 14px;
+    line-height: 18px;
+    color: #323232;
+    background: #fff url(../images/air_icon_calendar.png) no-repeat 112px 6px;
+}
+.air_s_date{
+	float: left;
+}
+.air_middle2{
+    float: left;
+    width: 18px;
+    height: 30px;
+    margin-top: 38px;
+    background: url(../images/air_icon_arrowr.png) no-repeat center center;
+}
+.air_search{
+	padding-top: 30px;
+    text-align: center;
+}
+.air_search a{
+	display: block;
+    width: 248px;
+    height: 42px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(../images/air_flysch_submitbg.png) no-repeat 0 0;
+    border: none;
+    line-height: 200px;
+    text-indent: -400px;
+    cursor: pointer;
+}
+.air_right{
+	float: left;
+	margin-left: 30px;
+}
+.fly_title{
+	width: 100%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    float: left;
+    color: #636363;
+    font-weight: 500;
+}
+.air_right li{
+	padding-left: 12px;
+    background: url(../images/air_icon_arrowr.png) no-repeat 0 6px;
+    margin-bottom: 5px;
+    color: #636363;
+    font-size: 14px;
+}

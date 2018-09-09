@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="15px" viewBox="0 0 26 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FE9B5B" offset="0%"></stop>
+            <stop stop-color="#FD787A" offset="100%"></stop>
+        </linearGradient>
+        <path d="M2,0.5 L20.8456443,0.5 L20.8456443,0.5 C21.5599906,0.5 22.2201032,0.881002369 22.5774364,1.49955211 L26.0200195,7.45872145 L22.5757094,13.4916143 L22.5757094,13.4916143 C22.2197264,14.1151376 21.556831,14.5 20.8388441,14.5 L2,14.5 L2,14.5 C0.8954305,14.5 1.11632554e-15,13.6045695 0,12.5 L0,2.5 L0,2.5 C-1.3527075e-16,1.3954305 0.8954305,0.5 2,0.5 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="酒店频道_细节状态补充" transform="translate(-795.000000, -88.000000)">
+            <g id="服务承诺" transform="translate(773.000000, 62.000000)">
+                <g id="Group-13" transform="translate(22.000000, 26.000000)">
+                    <g id="Rectangle-20" opacity="0.95">
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <path stroke-opacity="0.1" stroke="#FD7F74" stroke-width="1" d="M25.4434313,7.46018985 L22.1444884,1.74966408 C21.8764885,1.28575178 21.381404,1 20.8456443,1 L2,1 C1.17157288,1 0.5,1.67157288 0.5,2.5 L0.5,12.5 C0.5,13.3284271 1.17157288,14 2,14 L20.8388441,14 C21.3773343,14 21.8745058,13.7113532 22.1414931,13.2437107 L25.4434313,7.46018985 Z"></path>
+                    </g>
+                    <path d="M18,10 L18,8 L20,8 L20,7 L18,7 L18,5 L20,5 L20,4 L17.5,4 L17,4 L17,10.5 L17,11 L20,11 L20,10 L18,10 Z M14,10 L14,8 L16,8 L16,7 L14,7 L14,5 L16,5 L16,4 L13.5,4 L13,4 L13,10.5 L13,11 L16,11 L16,10 L14,10 Z M8.5,4 L11,4 L11,5 L9,5 L9,7 L11,7 L11,8 L9,8 L9,11 L8,11 L8,4 L8.5,4 Z M5,8 L5,11 L4,11 L4,4 L4.5,4 L7,4 L7,5 L5,5 L5,7 L7,7 L7,8 L5,8 Z M12,4 L12,8 L11,8 L11,4 L12,4 Z M12,9 L12,11 L11,11 L11,9 L12,9 Z M11,8 L11,9 L10,9 L10,8 L11,8 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

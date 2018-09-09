@@ -1,0 +1,140 @@
+/*
+* @Author: Mo
+* @Date:   2018-06-20 23:05:39
+* @Last Modified by:   Mo
+* @Last Modified time: 2018-09-07 17:18:51
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: 微软雅黑;
+}
+a{
+	text-decoration: none;
+}
+.s_icon{
+	width: 15px;
+}
+.s_icon img{
+	width: 13px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+.header{
+	height: 30px;
+	width: 100%;
+	background: #323232;
+	overflow: hidden;
+    min-width: 1000px;
+}
+.h_left{
+	margin-top: 6px;
+	margin-left: 30px;
+	float: left;
+}
+.h_left a img{
+	width: 58px;
+	height: 18px;
+}
+.h_center{
+	/* background: blue; */
+	width: 600px;
+	height: 30px;
+	float: left;
+}
+.nav{
+	width: 660px;
+	height: 30px;
+	margin-left: 18px;
+}
+.nav a{
+	overflow: hidden;
+}
+.nav>li{
+	float: left;
+	line-height: 30px;
+    font-size: 14px;
+    padding: 0 13px;
+    margin-right: 10px;
+}
+.nav li a span{
+	color: silver;
+	font-weight: 900;
+	float: left;
+}
+.nav .icon-xiala{
+	font-size: 12px;
+	margin-left: 4px;
+}
+.span_color{
+	color: silver;
+}
+.h_menu{
+	display: none;
+	background: #fff;
+	padding: 10px 0px;
+	position: absolute;
+	top: 30px;
+	z-index: 200;
+    border-radius: 4px;
+    border: 1px solid #999;
+}
+.h_menu ul li{
+	margin: 2px 0;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #636363;
+}
+.h_right{
+	width: 150px;
+	height: 30px;
+	float: right;
+	line-height: 30px;
+	margin-left: 13px;
+	margin-right: 25px;
+}
+.h_right a{
+	color: silver;
+	font-weight: 900;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.h_right a:hover{
+	color: #10b041;
+}
+.nav_search{
+	float: right;
+	/* background: pink; */
+	position: relative;
+	margin-right: 10px;
+}
+.nav_search input{
+	width: 0px;
+	height: 22px;
+	margin-top: 4px;
+	border-radius: 4px;
+	border: 0px;
+	/* display: none; */
+	position: absolute;
+	right: 10px;
+	/* top: 0; */
+	outline: none;
+}
+.nav_search .icon-sousuo{
+	position: absolute;
+	right: 15px;
+	top: 8px;
+	color: silver;
+	font-weight: 600;
+}
+.nav_search span{
+	color: silver;
+	display: block;
+	margin-top: 7px;
+	font-size: 12px;
+	font-weight: bold;
+}
+/* -----------nav------------- */
